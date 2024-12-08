@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|s:\\projects\\gitdockerazureproj\\backendapi\\backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|s:\\projects\\gitdockerazureproj\\backendapi\\backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|s:\\projects\\gitdockerazureproj\\backendapi\\backendapi\\dal\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\dal\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|s:\\projects\\gitdockerazureproj\\backendapi\\backendapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|s:\\projects\\gitdockerazureproj\\backendapi\\backendapi\\model\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\model\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|s:\\projects\\gitdockerazureproj\\backendapi\\backendapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|s:\\projects\\gitdockerazureproj\\backendapi\\backendapi\\logic\\logicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\logic\\logicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|s:\\projects\\gitdockerazureproj\\backendapi\\backendapi\\repository\\repositoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\repository\\repositoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|s:\\projects\\gitdockerazureproj\\backendapi\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|s:\\projects\\gitdockerazureproj\\backendapi\\backendapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D6BB489-AA59-4488-8530-C97B55D6324F}|BackendAPI\\BackendAPI.csproj|solutionrelative:backendapi\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 188,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Model\\UserDto.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Model\\UserDto.cs",
+              "ToolTip": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Model\\UserDto.cs",
+              "RelativeToolTip": "BackendAPI\\Model\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T10:36:10.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "BackendAPI\\Dockerfile",
+              "ToolTip": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Dockerfile",
+              "RelativeToolTip": "BackendAPI\\Dockerfile",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-06T11:02:38.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Program.cs",
+              "ToolTip": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Program.cs",
+              "RelativeToolTip": "BackendAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T10:55:50.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BackendAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:58:20.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyDBContext.cs",
+              "DocumentMoniker": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\DAL\\MyDBContext.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\DAL\\MyDBContext.cs",
+              "ToolTip": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\DAL\\MyDBContext.cs",
+              "RelativeToolTip": "BackendAPI\\DAL\\MyDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:52:00.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RepositoryService.cs",
+              "DocumentMoniker": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Repository\\RepositoryService.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Repository\\RepositoryService.cs",
+              "ToolTip": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Repository\\RepositoryService.cs",
+              "RelativeToolTip": "BackendAPI\\Repository\\RepositoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:18:29.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Model\\User.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Model\\User.cs",
+              "ToolTip": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Model\\User.cs",
+              "RelativeToolTip": "BackendAPI\\Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T12:06:51.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-06T11:02:39.735Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 120,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BackendAPI\\appsettings.json",
+              "ToolTip": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\appsettings.json",
+              "RelativeToolTip": "BackendAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-06T14:12:06.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LogicService.cs",
+              "DocumentMoniker": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Logic\\LogicService.cs",
+              "RelativeDocumentMoniker": "BackendAPI\\Logic\\LogicService.cs",
+              "ToolTip": "S:\\Projects\\GitDockerAzureProj\\BackendAPI\\BackendAPI\\Logic\\LogicService.cs",
+              "RelativeToolTip": "BackendAPI\\Logic\\LogicService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwB8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:42:35.737Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
