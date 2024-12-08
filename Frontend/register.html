@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Register</title>
+</head>
+<body class="body-container">
+    <header class="header-homepage">Welcome to NorthWay</header>
+    <main class="MainContainer">
+        <div class="contentContiner">
+            <form class="formContainer" id="registerForm">
+                <div class="inputContainer">
+                    <label class="label_input">Username</label>
+                    <input type="text" placeholder="Insert your username" id="regUsernameInput" minlength="2" maxlength="15" required/>
+                </div>
+                <div class="inputContainer">
+                    <label class="label_input">Password</label>
+                    <input placeholder="Insert your password" type="password" id="regPasswordInput" minlength="2" maxlength="16" required/>
+                </div>
+                <button class="Btn" id="submitRegisterBtn" type="submit">Sign Up</button>
+                <div id="errorContainer"></div>
+            </form>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
