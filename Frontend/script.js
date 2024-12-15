@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (loginBtnHomePage) {
         loginBtnHomePage.addEventListener('click', () => {
-            window.location.href = 'login.html';
+            window.location.href = 'Login.html';
         });
     }
 
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             try {
                 // קריאת Fetch להתממשקות לשרת (לשים URL אמיתי בשרת בפועל)
-                const response = await fetch('https://127.0.0.1:32770/login', {
+                const response = await fetch('http://localhost:8080/api/auth/Login', {
                     method: 'POST',
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ username, password })
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             try {
                 // קריאת Fetch להתממשקות לשרת (לשים URL אמיתי בשרת בפועל)
-                const response = await fetch('https://127.0.0.1:32770/register', {
+                const response = await fetch('http://localhost:8080/api/Auth/register', {
                     method: 'POST',
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ username, password })
