@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // אם זה דף הבית (index.html):
+
     const loginBtnHomePage = document.getElementById('loginBtnHomePage');
     const signUpBtnHomePage = document.getElementById('signUpBtnHomePage');
 
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // אם זה דף הכניסה (login.html)
+
     const loginForm = document.getElementById('loginForm');
     const usernameInput = document.getElementById('usernameInput');
     const passwordInput = document.getElementById('passwordInput');
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const username = usernameInput.value.trim();
             const password = passwordInput.value.trim();
 
-            // ולידציה פשוטה
+
             if (!username || username.length < 2 || username.length > 15) {
                 showError("Invalid Username. Must be between 2 and 15 characters.");
                 return;
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             try {
-                // קריאת Fetch להתממשקות לשרת (לשים URL אמיתי בשרת בפועל)
+
                 const response = await fetch('http://localhost:8080/api/auth/Login', {
                     method: 'POST',
                     headers: { "Content-Type": "application/json" },
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const data = await response.json();
 
                 if (response.ok) {
-                    window.location.href = 'home.html';
+                    window.location.href = `home.html?username=${username}`;
                 } else {
                     showError(data.message || "Login failed. Please try again.");
                 }
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             try {
-                // קריאת Fetch להתממשקות לשרת (לשים URL אמיתי בשרת בפועל)
+
                 const response = await fetch('http://localhost:8080/api/Auth/register', {
                     method: 'POST',
                     headers: { "Content-Type": "application/json" },
@@ -110,8 +110,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 const data = await response.json();
 
                 if (response.ok) {
-                    // לאחר רישום מוצלח הפניה לדף הבית או כניסה אוטומטית
-                    window.location.href = 'home.html';
+
+                    window.location.href = 'login.html';
                 } else {
                     showError(data.message || "Registration failed. Please try again.");
                 }
@@ -122,4 +122,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+
+    const params = new URLSearchParams(window.location.search);
+    const username = params.get('username');
+    const welcomeDiv =document.getElementById('welcomeMessage');
+    welcomeDiv.textContent += `${username}`;
+
 });
+
+
